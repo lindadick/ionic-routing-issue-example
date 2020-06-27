@@ -1,9 +1,19 @@
-import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab3.css';
+import React from "react";
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+import ExploreContainer from "../components/ExploreContainer";
+import "./Tab3.css";
+
+var count = 1;
 
 const Tab3: React.FC = () => {
+  console.log("rendering tab 3 (render count: " + count++ + ")");
+
   return (
     <IonPage>
       <IonHeader>
